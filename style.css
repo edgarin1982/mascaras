@@ -9,11 +9,7 @@ body {
     padding: 50px 20px 0 20px;
     box-sizing: border-box;
     background: rgb(0, 114, 255);
-    background: radial-gradient(
-      circle,
-      rgba(0, 114, 255, 1) 1%,
-      rgba(33, 25, 173, 1) 100%
-    );
+    background: linear-gradient(to bottom, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 100px auto;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   }
